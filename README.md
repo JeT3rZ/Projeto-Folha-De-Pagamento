@@ -10,6 +10,7 @@ Gestão e manipulação de dados com banco de dados
 🔧 Como utilizar o projeto
 
 1.Ambiente necessário:
+
 Utilize o XAMPP Control Panel para simular o ambiente de servidor local (Apache + MySQL).
 
 2.Instalação:
