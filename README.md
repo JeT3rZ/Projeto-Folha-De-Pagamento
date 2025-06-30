@@ -8,16 +8,16 @@ Lógica de Programação
 Gestão e manipulação de dados com banco de dados
 
 🔧 Como utilizar o projeto
-Ambiente necessário:
+1.Ambiente necessário:
 Utilize o XAMPP Control Panel para simular o ambiente de servidor local (Apache + MySQL).
 
-Instalação:
+2.Instalação:
 
 Copie todos os arquivos do projeto para a pasta htdocs do XAMPP.
 
 Inicie os serviços Apache e MySQL no painel do XAMPP.
 
-Banco de Dados:
+3.Banco de Dados:
 
 Acesse o phpMyAdmin pelo navegador (geralmente: http://localhost/phpmyadmin)
 
