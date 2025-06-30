@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Documentação do Sistema</title>
+    <script>
+        function mudarpag() {
+            location.href = "painel.php";
+        }
+    </script>
+    <style>
+        body {
+            background: url('css/Fundo.png') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f8f8f8;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        .section {
+            background: #fff;
+            border-left: 5px solid #007BFF;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px #ddd;
+        }
+
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-size: 90%;
+        }
+
+        button {
+            background-color: #2d89ef;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            width: 100%;
+            max-width: 200px;
+        }
+
+        button:hover {
+            background-color: #1b64c3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>📄 Documentação do Sistema de Contracheque</h1>
+
+    <div class="section">
+        <h2>🔐 Login e Sessão</h2>
+        <p><strong>Login.php</strong>: Formulário de login dos usuários.</p>
+        <p><strong>logout.php</strong>: Encerra a sessão do usuário logado.</p>
+        <p><strong>protect.php</strong>: Garante que somente usuários autenticados acessem páginas restritas.</p>
+    </div>
+
+    <div class="section">
+        <h2>👤 Gerenciamento de Usuários</h2>
+        <p><strong>Cadastro.php</strong>: Permite cadastrar novos usuários.</p>
+        <p><strong>editar_usuario.php</strong>: Edita os dados dos usuários existentes.</p>
+        <p><strong>excluir_usuario.php</strong>: Exclui um usuário do sistema.</p>
+        <p><strong>listar_usuarios.php</strong>: Lista todos os usuários cadastrados.</p>
+    </div>
+
+    <div class="section">
+        <h2>💼 Contracheque</h2>
+        <p><strong>contracheque_form.php</strong>: Formulário para inserir dados de contracheque.</p>
+        <p><strong>contracheque.php</strong>: Exibe o contracheque do usuário logado.</p>
+    </div>
+
+    <div class="section">
+        <h2>🧠 Outros Arquivos</h2>
+        <p><strong>conexao.php</strong>: Conecta ao banco de dados MySQL.</p>
+        <p><strong>painel.php</strong>: Página principal do sistema após login.</p>
+        <p><strong>document.html</strong>: Esta página de documentação.</p>
+        <p><strong>Sobre.html</strong>: Esta página de Informações sobre o Projeto.</p>
+    </div>
+
+    <div class="section">
+        <h2>🎨 Estilo</h2>
+        <p><strong>css/Estilo.css</strong>: Define o visual do sistema (cores, layout, fontes).</p>
+        <p><strong>css/Fundo.png</strong> e <strong>css/favicon-16x16.png</strong>: Imagens usadas no sistema.</p>
+    </div>
+
+    <div class="section">
+        <h2>🗃️ Banco de Dados</h2>
+        <p><strong>login.sql</strong>: Script SQL para criar e popular as tabelas do banco de dados.</p>
+    </div>
+    <br>
+    <div style="text-align: center; margin-top: 20px;">
+        <button onclick="mudarpag()">Voltar</button>
+    </div>
+</body>
+
+</html>
