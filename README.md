@@ -23,6 +23,6 @@ Inicie os serviços Apache e MySQL no painel do XAMPP.
 
 Acesse o phpMyAdmin pelo navegador (geralmente: http://localhost/phpmyadmin)
 
-Importe o arquivo login.sql para criar o banco de dados com as tabelas necessárias.
+Crie  o Banco de dados login e importe o arquivo login.sql para anexar ao banco as tabelas necessárias.
 
 Usuario e senha se encontra no Arquivo de texto junto a pasta Banco de dados.
